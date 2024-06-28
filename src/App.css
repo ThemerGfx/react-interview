@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: calc(33.333% - 32px);
+  box-sizing: border-box;
+}
+
+.movie-card h3 {
+  font-weight: bold;
+}
+
+.movie-card button {
+  margin-right: 8px;
+}
